@@ -26,6 +26,9 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
 ### Day 2 (July 26)
 * **Beginner Track:** LeetCode 412: Fizz Buzz
 
+### Day 3 (July 27)
+* LeetCode 125: Valid Palindrome
+    * **Note:** Solved using Python's `re.sub` for string cleaning. Observed a performance difference: a direct `return` statement for the palindrome check yielded ~3ms runtime, compared to ~6ms when using an explicit `if-else` block for the same logic.
 ---
 
 ### My Commitment
