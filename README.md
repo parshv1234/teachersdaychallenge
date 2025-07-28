@@ -29,6 +29,11 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
 ### Day 3 (July 27)
 * LeetCode 125: Valid Palindrome
     * **Note:** Solved using Python's `re.sub` for string cleaning. Observed a performance difference: a direct `return` statement for the palindrome check yielded ~3ms runtime, compared to ~6ms when using an explicit `if-else` block for the same logic.
+
+### Day 4 (July 28)
+* LeetCode 1: Two Sum
+    * **Note:** Solved using the Hash Map approach for optimal efficiency. While other methods like brute-force or two-pointers (after sorting) exist, the hash map offers a clean O(n) average-time complexity. You'll find both the code and detailed notes on this problem's various solutions in this repository.
+
 ---
 
 ### My Commitment
