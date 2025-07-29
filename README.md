@@ -34,6 +34,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
 * LeetCode 1: Two Sum
     * **Note:** Solved using the Hash Map approach for optimal efficiency. While other methods like brute-force or two-pointers (after sorting) exist, the hash map offers a clean O(n) average-time complexity. You'll find both the code and detailed notes on this problem's various solutions in this repository.
 
+### **Day 5: Unraveling Roman Numerals! (LeetCode 13: Roman to Integer)**
+* **Problem Link:** [https://leetcode.com/problems/roman-to-integer/](https://leetcode.com/problems/roman-to-integer/)
+* **Solution Status:** Solved
+* **Approach:** Implemented a single-pass iteration from left to right. Utilized a hash map (dictionary) to store Roman symbol-to-integer mappings. The core logic involved checking the next character's value: if the current symbol's value was less than the next, it signified a subtractive case (e.g., IV, IX), otherwise it was additive.
+* **Complexity:**
+    * **Time Complexity: O(N)**, where N is the length of the Roman numeral string, due to a single pass.
+    * **Space Complexity: O(1)**, as the symbol-to-value map is of fixed size.
+* **Key Learnings:** Reinforcement of handling conditional logic within a loop for sequential parsing problems. Confirmed the efficiency of hash maps for constant-time lookups.
+
 ---
 
 ### My Commitment
