@@ -43,6 +43,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity: O(1)**, as the symbol-to-value map is of fixed size.
 * **Key Learnings:** Reinforcement of handling conditional logic within a loop for sequential parsing problems. Confirmed the efficiency of hash maps for constant-time lookups.
 
+### **Day 6: Balancing Brackets! (LeetCode 20: Valid Parentheses)**
+* **Problem Link:** [https://leetcode.com/problems/valid-parentheses/](https://leetcode.com/problems/valid-parentheses/)
+* **Solution Status:** Solved
+* **Approach:** Used a stack data structure along with a mapping dictionary. Iterated through the string: pushed opening brackets onto the stack. For closing brackets, checked if the stack was empty or if the popped element didn't match the expected opening bracket.
+* **Complexity:**
+    * **Time Complexity: O(N)**, where N is the length of the input string, as each character is processed once.
+    * **Space Complexity: O(N)**, in the worst case, the stack might store all opening brackets (e.g., "(((").
+* **Key Learnings:** Solidified understanding of stack's Last-In-First-Out (LIFO) principle. Practiced using stacks for matching and parsing problems, a common pattern in DSA.
+
 ---
 
 ### My Commitment
