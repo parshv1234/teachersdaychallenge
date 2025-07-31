@@ -52,6 +52,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity: O(N)**, in the worst case, the stack might store all opening brackets (e.g., "(((").
 * **Key Learnings:** Solidified understanding of stack's Last-In-First-Out (LIFO) principle. Practiced using stacks for matching and parsing problems, a common pattern in DSA.
 
+### **Day 7: First Dive into Codeforces! (Codeforces 4A: Watermelon)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/4/A](https://codeforces.com/problemset/problem/4/A)
+* **Solution Status:** Solved
+* **Approach:** This problem required checking if a given even weight `w` (greater than 2) can be split into two even numbers. The solution involved a simple modulo operation (`w % 2 == 0`) and ensuring `w` is not equal to 2, as 2 cannot be split into two positive even numbers.
+* **Complexity:**
+    * **Time Complexity: O(1)**, as it involves a single arithmetic operation and a comparison.
+    * **Space Complexity: O(1)**, using only a few constant variables.
+* **Key Learnings:** Initiated problem-solving on Codeforces. Reinforced the importance of edge cases (like `w=2`) even in seemingly simple problems. Great warm-up for the new platform!
+
 ---
 
 ### My Commitment
