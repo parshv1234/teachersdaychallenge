@@ -61,6 +61,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity: O(1)**, using only a few constant variables.
 * **Key Learnings:** Initiated problem-solving on Codeforces. Reinforced the importance of edge cases (like `w=2`) even in seemingly simple problems. Great warm-up for the new platform!
 
+### **Day 8: Mastering the 'Way Too Long Words' Problem! (Codeforces 71A: Way Too Long Words)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/71A](https://codeforces.com/problemset/problem/71A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads a number `n`, followed by `n` words. For each word, it checks its length. If the length is greater than 10, it prints an abbreviation consisting of the first character, the length minus 2, and the last character. Otherwise, it prints the word as is.
+* **Complexity:**
+    * **Time Complexity: O(L)**, where L is the length of a given word. The process is repeated for each of the `n` words.
+    * **Space Complexity: O(L)**, where L is the length of the longest word, as we need to store each word in memory for processing.
+* **Key Learnings:** Focused on string manipulation and conditional logic. Practiced the standard Codeforces I/O format (reading `n`, then looping `n` times to read and process input).
+
 ---
 
 ### My Commitment
