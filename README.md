@@ -70,6 +70,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity: O(L)**, where L is the length of the longest word, as we need to store each word in memory for processing.
 * **Key Learnings:** Focused on string manipulation and conditional logic. Practiced the standard Codeforces I/O format (reading `n`, then looping `n` times to read and process input).
 
+### **Day 9: Solving as a Team! (Codeforces 231A: Team)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/231/A](https://codeforces.com/problemset/problem/231/A)
+* **Solution Status:** Solved
+* **Approach:** The problem involves reading an integer `n` followed by `n` lines of input, with each line containing three integers. My solution reads each line, sums the three integers, and if the sum is 2 or greater, it increments a counter. Finally, it prints the total count of problems that can be solved.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the number of problems. We loop through each problem once, performing a constant number of operations inside the loop.
+    * **Space Complexity:** O(1), as the memory used for variables is constant and does not depend on the input size.
+* **Key Learnings:** Practiced reading multiple integer inputs from a single line using `input().split()` and `map()`. Solidified understanding of simple counting loops and conditional logic.
+
 ---
 
 ### My Commitment
