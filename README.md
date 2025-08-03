@@ -79,6 +79,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as the memory used for variables is constant and does not depend on the input size.
 * **Key Learnings:** Practiced reading multiple integer inputs from a single line using `input().split()` and `map()`. Solidified understanding of simple counting loops and conditional logic.
 
+### **Day 10: Advancing to the Next Round! (Codeforces 158A: Next Round)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/158/A](https://codeforces.com/problemset/problem/158/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads `n` and `k`, followed by a list of `n` scores. It then identifies the score of the k-th place finisher (at index `k-1`) as the benchmark. It iterates through the list of scores, counting every participant whose score is both greater than 0 and greater than or equal to the benchmark score.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the number of participants, as we iterate through the list of scores once to find the qualified count.
+    * **Space Complexity:** O(N), as we store the list of `n` scores in memory.
+* **Key Learnings:** Solidified parsing multiple inputs from a single line (`input().split()`). Practiced using array indexing to establish a benchmark and applying multiple logical conditions within a loop.
+
 ---
 
 ### My Commitment
