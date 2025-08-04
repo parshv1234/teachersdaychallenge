@@ -88,6 +88,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), as we store the list of `n` scores in memory.
 * **Key Learnings:** Solidified parsing multiple inputs from a single line (`input().split()`). Practiced using array indexing to establish a benchmark and applying multiple logical conditions within a loop.
 
+### **Day 11: Simplifying Strings! (Codeforces 118A: String Task)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/118/A](https://codeforces.com/problemset/problem/118/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads an input string. It iterates through each character of the string. If a character is not a vowel (case-insensitive), it appends a dot '.' followed by the lowercase version of the consonant to a result list. Finally, it joins the elements of the result list to form the output string.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the input string, as we iterate through each character once.
+    * **Space Complexity:** O(N), in the worst case, the `result` list can have up to 2N elements (if the input string contains no vowels).
+* **Key Learnings:** Practiced iterating through strings and applying conditional logic to characters. Reinforced the use of string methods like `.lower()` and the concept of building a new string character by character (or using a list and then joining). This was an easy problem focusing on basic string manipulation.
+
 ---
 
 ### My Commitment
