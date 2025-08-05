@@ -97,6 +97,14 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), in the worst case, the `result` list can have up to 2N elements (if the input string contains no vowels).
 * **Key Learnings:** Practiced iterating through strings and applying conditional logic to characters. Reinforced the use of string methods like `.lower()` and the concept of building a new string character by character (or using a list and then joining). This was an easy problem focusing on basic string manipulation.
 
+### **Day 12: Petya and Strings! (Codeforces 112A: Petya and Strings)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/112/A](https://codeforces.com/problemset/problem/112/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads two strings, converts them to lowercase to ensure case-insensitive comparison, and then uses standard Python comparison operators to determine their lexicographical order. It prints -1, 1, or 0 based on whether the first string is lexicographically smaller, larger, or equal to the second.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the strings. The comparison operation iterates through the strings once.
+    * **Space Complexity:** O(N), as we need to store both input strings and their lowercase versions in memory.
+* **Key Learnings:** Practiced case-insensitive string manipulation and reinforced the behavior of Python's built-in lexicographical string comparison. This was an easy problem that tested a fundamental string operation.
 ---
 
 ### My Commitment
