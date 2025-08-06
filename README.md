@@ -105,6 +105,16 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Time Complexity:** O(N), where N is the length of the strings. The comparison operation iterates through the strings once.
     * **Space Complexity:** O(N), as we need to store both input strings and their lowercase versions in memory.
 * **Key Learnings:** Practiced case-insensitive string manipulation and reinforced the behavior of Python's built-in lexicographical string comparison. This was an easy problem that tested a fundamental string operation.
+
+### **Day 13: Making Maths Helpful! (Codeforces 339A: Helpful Maths)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/339/A](https://codeforces.com/problemset/problem/339/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads a string representing a sum. It first removes all '+' signs from the string, then sorts the remaining single-digit numbers. Finally, it joins the sorted numbers back together with '+' signs in between.
+* **Complexity:**
+    * **Time Complexity:** O(N log N), where N is the number of terms in the sum. The dominant operation is sorting the numbers.
+    * **Space Complexity:** O(N), as a new list of numbers is created to perform the sorting.
+* **Key Learnings:** Practiced using built-in Python string methods like `.replace()` and `.join()` along with list sorting to solve a problem elegantly. This was a great example of how to break down a string manipulation problem into smaller, manageable steps.
+
 ---
 
 ### My Commitment
