@@ -115,6 +115,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), as a new list of numbers is created to perform the sorting.
 * **Key Learnings:** Practiced using built-in Python string methods like `.replace()` and `.join()` along with list sorting to solve a problem elegantly. This was a great example of how to break down a string manipulation problem into smaller, manageable steps.
 
+### **Day 14: Capitalizing Words! (Codeforces 281A: Word Capitalization)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/281/A](https://codeforces.com/problemset/problem/281/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads a single word, converts its first character to uppercase using the `.upper()` method, and then concatenates it with the rest of the string using slicing (`s[1:]`).
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the string, as slicing and concatenation operations take time proportional to the string's length.
+    * **Space Complexity:** O(N), as a new string is created to store the capitalized word.
+* **Key Learnings:** Practiced fundamental string indexing, slicing, and manipulation, reinforcing the immutability of strings in Python and the use of built-in methods for simple tasks.
+
 ---
 
 ### My Commitment
