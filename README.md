@@ -124,6 +124,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), as a new string is created to store the capitalized word.
 * **Key Learnings:** Practiced fundamental string indexing, slicing, and manipulation, reinforcing the immutability of strings in Python and the use of built-in methods for simple tasks.
 
+### **Day 15: Boy or Girl! (Codeforces 236A: Boy or Girl)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/236/A](https://codeforces.com/problemset/problem/236/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads a username string and converts it into a set to automatically count the number of unique characters. It then checks if the size of the set is even or odd to determine the output.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the username string. Creating a set from a string requires iterating through all characters once.
+    * **Space Complexity:** O(K), where K is the number of distinct characters in the username. The space is used to store the unique characters in the set.
+* **Key Learnings:** Reinforced the efficiency of using a `set` to find the number of distinct elements in a collection. This was a straightforward problem that tested the understanding of basic data structures.
+
 ---
 
 ### My Commitment
