@@ -133,6 +133,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(K), where K is the number of distinct characters in the username. The space is used to store the unique characters in the set.
 * **Key Learnings:** Reinforced the efficiency of using a `set` to find the number of distinct elements in a collection. This was a straightforward problem that tested the understanding of basic data structures.
 
+### **Day 16: The Beautiful Matrix! (Codeforces 263A: Beautiful Matrix)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/263/A](https://codeforces.com/problemset/problem/263/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads a 5x5 matrix to find the single '1'. It then calculates the Manhattan distance (the sum of the absolute differences of the coordinates) from the '1' to the center of the matrix, which is at `(3, 3)`. This distance represents the minimum number of moves required.
+* **Complexity:**
+    * **Time Complexity:** O(1), as the matrix size is fixed at 5x5, making the number of operations constant.
+    * **Space Complexity:** O(1), as the memory required to store the matrix and variables is constant.
+* **Key Learnings:** Practiced matrix traversal and manipulation, focusing on finding a specific element. Applied the concept of Manhattan distance to solve a problem requiring a minimum number of moves. This was a good challenge to reinforce logic within a fixed data structure.
+
 ---
 
 ### My Commitment
