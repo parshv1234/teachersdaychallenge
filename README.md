@@ -142,6 +142,17 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as the memory required to store the matrix and variables is constant.
 * **Key Learnings:** Practiced matrix traversal and manipulation, focusing on finding a specific element. Applied the concept of Manhattan distance to solve a problem requiring a minimum number of moves. This was a good challenge to reinforce logic within a fixed data structure.
 
+### **Day 17: Stones on the Table! (Codeforces 266A: Stones on the Table)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/266/A](https://codeforces.com/problemset/problem/266/A)
+* **Solution Status:** Solved
+* **Approach:** This problem was solved using two different methods.
+    * **Method 1 (Iterative):** A single pass through the string was performed, comparing each character to its immediate predecessor. A counter was incremented whenever adjacent characters were identical.
+    * **Method 2 (Stack-based):** A stack was used to store unique, non-adjacent stones. The algorithm iterated through the string, pushing stones onto the stack only if they were different from the top element. The number of stones that were not pushed represents the number of removals.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the string, as both approaches involve a single pass.
+    * **Space Complexity:** O(1) for the iterative method, and O(N) in the worst case for the stack-based method (if all stones are different).
+* **Key Learnings:** Reinforcement of basic string traversal with conditional logic. The stack approach provided a great opportunity to practice using data structures to solve a problem with an alternative, and often more robust, method.
+
 ---
 
 ### My Commitment
