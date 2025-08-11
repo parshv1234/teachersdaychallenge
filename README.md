@@ -153,6 +153,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1) for the iterative method, and O(N) in the worst case for the stack-based method (if all stones are different).
 * **Key Learnings:** Reinforcement of basic string traversal with conditional logic. The stack approach provided a great opportunity to practice using data structures to solve a problem with an alternative, and often more robust, method.
 
+### **Day 18: Bit++! (Codeforces 282A: Bit++)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/282/A](https://codeforces.com/problemset/problem/282/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads a number `n`, followed by `n` statements. It initializes a counter `x` to 0. For each statement, it checks if a '+' character is present. If it is, the counter is incremented; otherwise, it is decremented.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the number of statements, as we iterate through each statement once.
+    * **Space Complexity:** O(1), as the memory used for variables is constant and does not depend on the input size.
+* **Key Learnings:** Focused on simple string checking and conditional logic to solve a problem with a counter. Practiced the standard Codeforces I/O format of reading a number and then looping that many times.
+
 ---
 
 ### My Commitment
