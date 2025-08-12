@@ -162,6 +162,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as the memory used for variables is constant and does not depend on the input size.
 * **Key Learnings:** Focused on simple string checking and conditional logic to solve a problem with a counter. Practiced the standard Codeforces I/O format of reading a number and then looping that many times.
 
+### **Day 19: The Domino Piling Problem! (Codeforces 50A: Domino Piling)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/50/A](https://codeforces.com/problemset/problem/50/A)
+* **Solution Status:** Solved
+* **Approach:** The solution calculates the maximum number of dominoes that can be placed on an M×N board. The problem can be solved with a single mathematical formula by dividing the total area of the board (M * N) by the area of a single domino (2).
+* **Complexity:**
+    * **Time Complexity:** O(1), as it involves a single arithmetic operation.
+    * **Space Complexity:** O(1), as only a few constant variables are used.
+* **Key Learnings:** Practiced identifying mathematical patterns in problems to find elegant and highly efficient solutions, rather than resorting to complex iterative or brute-force methods.
+
 ---
 
 ### My Commitment
