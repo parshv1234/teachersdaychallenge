@@ -171,6 +171,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as only a few constant variables are used.
 * **Key Learnings:** Practiced identifying mathematical patterns in problems to find elegant and highly efficient solutions, rather than resorting to complex iterative or brute-force methods.
 
+### **Day 20: Tackling a Translation Problem! (Codeforces 41A: Translation)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/41/A](https://codeforces.com/problemset/problem/41/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads two words, s and t. It checks if the second word t is identical to the first word s when s is reversed. This check is performed efficiently using Python's string slicing s[::-1] for reversal and direct comparison.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the strings. String reversal using slicing and subsequent comparison both take time proportional to the string's length.
+    * **Space Complexity:** O(N), as string slicing s[::-1] creates a new reversed string in memory.
+* **Key Learnings:** Reinforced efficient string manipulation techniques in Python, specifically string slicing for reversal. Practiced direct string comparison for equality.
+
 ---
 
 ### My Commitment
