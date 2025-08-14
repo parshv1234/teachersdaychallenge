@@ -180,6 +180,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), as string slicing s[::-1] creates a new reversed string in memory.
 * **Key Learnings:** Reinforced efficient string manipulation techniques in Python, specifically string slicing for reversal. Practiced direct string comparison for equality.
 
+### **Day 21: The Twins Problem! (Codeforces 160A: Twins)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/160/A](https://codeforces.com/problemset/problem/160/A)
+* **Solution Status:** Solved
+* **Approach:** The solution uses a greedy algorithm. It first calculates the total sum of all coins. To find the minimum number of coins with a sum strictly greater than half the total, it sorts the coins in descending order. It then iterates through the sorted coins, adding them to a running sum and counting them until the running sum exceeds half the total.
+* **Complexity:**
+    * **Time Complexity:** O(N log N), as the most time-consuming step is sorting the list of `n` coins.
+    * **Space Complexity:** O(N), to store the list of coin values.
+* **Key Learnings:** This problem was a great example of a greedy approach. It highlighted the importance of sorting as a pre-processing step to enable a greedy strategy that guarantees an optimal solution.
+
 ---
 
 ### My Commitment
