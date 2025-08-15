@@ -189,6 +189,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), to store the list of coin values.
 * **Key Learnings:** This problem was a great example of a greedy approach. It highlighted the importance of sorting as a pre-processing step to enable a greedy strategy that guarantees an optimal solution.
 
+### **Day 22: The Queue at the School! (Codeforces 266B: Queue at the School)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/266/B](https://codeforces.com/problemset/problem/266/B)
+* **Solution Status:** Solved
+* **Approach:** This problem was solved by simulating the process of children swapping positions in a queue for `t` seconds. The algorithm iterates through the queue and swaps adjacent pairs of a boy followed by a girl. It's crucial to increment the inner loop's index by 2 after each swap to avoid multiple swaps of the same child in a single second.
+* **Complexity:**
+    * **Time Complexity:** O(n * t), as a loop of length `n` is executed `t` times.
+    * **Space Complexity:** O(n), as the string representing the queue is stored in a list of characters.
+* **Key Learnings:** Practiced simulation and handling state changes within a loop with a fixed number of iterations. This problem was a good reminder of how to carefully manage loop indices to ensure correct behavior.
+
 ---
 
 ### My Commitment
