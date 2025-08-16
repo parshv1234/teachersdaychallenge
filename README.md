@@ -198,6 +198,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(n), as the string representing the queue is stored in a list of characters.
 * **Key Learnings:** Practiced simulation and handling state changes within a loop with a fixed number of iterations. This problem was a good reminder of how to carefully manage loop indices to ensure correct behavior.
 
+### **Day 23: The Elephant's Journey! (Codeforces 617A: Elephant)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/617/A](https://codeforces.com/problemset/problem/617/A)
+* **Solution Status:** Solved
+* **Approach:** The solution employs a greedy algorithm to find the minimum number of steps to reach a point `x`. It repeatedly takes the largest possible step (5, 4, 3, 2, or 1) until the destination is reached, counting each step.
+* **Complexity:**
+    * **Time Complexity:** O(x), where x is the coordinate of the friend's house. The number of operations is proportional to the distance.
+    * **Space Complexity:** O(1), as only a few variables are used to store the state.
+* **Key Learnings:** Applied a greedy strategy to a simple optimization problem. The solution demonstrated that for a problem with a clear goal of minimization, always taking the largest possible step is an effective strategy.
+
 ---
 
 ### My Commitment
