@@ -207,6 +207,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as only a few variables are used to store the state.
 * **Key Learnings:** Applied a greedy strategy to a simple optimization problem. The solution demonstrated that for a problem with a clear goal of minimization, always taking the largest possible step is an effective strategy.
 
+### **Day 24: Soldier and Bananas! (Codeforces 546A: Soldier and Bananas)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/546/A](https://codeforces.com/problemset/problem/546/A)
+* **Solution Status:** Solved
+* **Approach:** The solution calculates the total cost of buying `w` bananas, where the cost of the `i`-th banana is `i * k`. The total money needed is then compared to the money the soldier has (`n`). If the calculated total cost is greater than `n`, the difference represents the amount the soldier has to borrow.
+* **Complexity:**
+    * **Time Complexity:** O(w), where w is the number of bananas, due to a loop to calculate the total cost.
+    * **Space Complexity:** O(1), as only a few constant variables are used.
+* **Key Learnings:** Practiced using a simple loop to calculate a running total and applying conditional logic to determine the final output. This problem reinforced the importance of translating problem logic into simple, direct code.
+
 ---
 
 ### My Commitment
