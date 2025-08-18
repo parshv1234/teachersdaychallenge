@@ -216,6 +216,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as only a few constant variables are used.
 * **Key Learnings:** Practiced using a simple loop to calculate a running total and applying conditional logic to determine the final output. This problem reinforced the importance of translating problem logic into simple, direct code.
 
+### **Day 25: The Word Problem! (Codeforces 59A: Word)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/59/A](https://codeforces.com/problemset/problem/59/A)
+* **Solution Status:** Solved
+* **Approach:** The solution iterates through the input string to count the number of uppercase and lowercase letters. Based on which count is greater or equal, it converts the entire string to either lowercase or uppercase and then prints the result.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the string, due to a single pass to count characters.
+    * **Space Complexity:** O(N), as a new string is created for the final output.
+* **Key Learnings:** Practiced basic string iteration and conditional logic. Used built-in string methods like `.isupper()`, `.islower()`, `.upper()`, and `.lower()` to solve the problem efficiently.
+
 ---
 
 ### My Commitment
