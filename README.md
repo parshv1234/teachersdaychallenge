@@ -225,6 +225,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), as a new string is created for the final output.
 * **Key Learnings:** Practiced basic string iteration and conditional logic. Used built-in string methods like `.isupper()`, `.islower()`, `.upper()`, and `.lower()` to solve the problem efficiently.
 
+### **Day 26: The Dangerous Situation! (Codeforces 43A: Football)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/43/A](https://codeforces.com/problemset/problem/43/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads a string representing a sequence of players with the ball. It then iterates through the string, checking for any consecutive substring of seven identical characters ('0's or '1's'). If such a substring is found, it's considered a "dangerous situation."
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the string, as we iterate through the string once to check for the dangerous pattern.
+    * **Space Complexity:** O(1), as only a few variables are used to store the state.
+* **Key Learnings:** Reinforced string iteration with slicing and careful handling of loop boundaries. This problem was a good exercise in pattern matching within a string.
+
 ---
 
 ### My Commitment
