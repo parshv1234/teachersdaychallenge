@@ -234,6 +234,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as only a few variables are used to store the state.
 * **Key Learnings:** Reinforced string iteration with slicing and careful handling of loop boundaries. This problem was a good exercise in pattern matching within a string.
 
+### **Day 28: Petya and Countryside! (Codeforces 35A: Petya and Countryside)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/35/A](https://codeforces.com/problemset/problem/35/A)
+* **Solution Status:** Solved
+* **Approach:** The solution iterates through each section of the garden as a potential watering source. For each section, it expands outwards (left and right) to count contiguous sections where the water will flow (i.e., the heights are non-increasing). The final answer is the maximum number of watered sections found from any starting point.
+* **Complexity:**
+    * **Time Complexity:** O(N^2), where N is the number of sections. The algorithm involves a nested loop, as for each section, we perform two passes of up to N steps each.
+    * **Space Complexity:** O(N), as the list of heights is stored in memory.
+* **Key Learnings:** Practiced iterating through all possible starting points for a problem and implementing nested loops with careful boundary checks. This problem was a good exercise in simulating a process to find an optimal outcome.
+
 ---
 
 ### My Commitment
