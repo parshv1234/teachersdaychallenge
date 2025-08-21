@@ -234,6 +234,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as only a few variables are used to store the state.
 * **Key Learnings:** Reinforced string iteration with slicing and careful handling of loop boundaries. This problem was a good exercise in pattern matching within a string.
 
+### **Day 27: The Orange Cocktail! (Codeforces 200B: Drinks)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/200/B](https://codeforces.com/problemset/problem/200/B)
+* **Solution Status:** Solved
+* **Approach:** The solution calculates the average percentage of orange juice in a cocktail. Since equal proportions of each drink are mixed, the final concentration is simply the arithmetic mean of all the individual percentages. This is achieved by summing all percentages and dividing by the number of drinks.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the number of drinks, as we iterate through the list of percentages to calculate the sum.
+    * **Space Complexity:** O(N), to store the list of `n` percentages in memory.
+* **Key Learnings:** Practiced reading multiple integer inputs from a single line and applying a simple mathematical formula to solve a direct problem efficiently.
+
 ### **Day 28: Petya and Countryside! (Codeforces 35A: Petya and Countryside)**
 * **Problem Link:** [https://codeforces.com/problemset/problem/35/A](https://codeforces.com/problemset/problem/35/A)
 * **Solution Status:** Solved
