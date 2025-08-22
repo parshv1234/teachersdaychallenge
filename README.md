@@ -252,6 +252,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), as the list of heights is stored in memory.
 * **Key Learnings:** Practiced iterating through all possible starting points for a problem and implementing nested loops with careful boundary checks. This problem was a good exercise in simulating a process to find an optimal outcome.
 
+### **Day 29: Anton and Danik! (Codeforces 734A: Anton and Danik)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/734/A](https://codeforces.com/problemset/problem/734/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads the game outcomes as a string and uses Python's built-in `count()` method to efficiently determine the number of wins for Anton ('A') and Danik ('D'). A simple conditional check then compares the counts to determine the winner or declare a friendship.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the string, as the `count()` method performs a single pass.
+    * **Space Complexity:** O(N), as the string of game outcomes is stored in memory.
+* **Key Learnings:** Focused on simplifying code and improving efficiency by using built-in string methods instead of manual loops. This problem highlighted the importance of choosing the right tool for the job.
+
 ---
 
 ### My Commitment
