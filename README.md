@@ -261,6 +261,14 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), as the string of game outcomes is stored in memory.
 * **Key Learnings:** Focused on simplifying code and improving efficiency by using built-in string methods instead of manual loops. This problem highlighted the importance of choosing the right tool for the job.
 
+### **Day 30: Bear and Big Brother! (Codeforces 791A: Bear and Big Brother)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/791/A](https://codeforces.com/problemset/problem/791/A)
+* **Solution Status:** Solved
+* **Approach:** The solution employs a simple simulation loop. It repeatedly triples Bear Limak's weight and doubles his brother Bob's weight year by year, counting each year. The loop continues until Limak's weight is strictly greater than Bob's.
+* **Complexity:**
+    * **Time Complexity:** O(1), as the number of years required for Limak's weight to exceed Bob's is very small and constant given the problem constraints.
+    * **Space Complexity:** O(1), as only a few constant variables are used to store the weights and the year count.
+* **Key Learnings:** Practiced approaching problems using a simple simulation. This was a good reminder of how to use a `while` loop to model a process that continues until a specific condition is met.
 ---
 
 ### My Commitment
