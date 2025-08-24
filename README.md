@@ -269,6 +269,16 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Time Complexity:** O(1), as the number of years required for Limak's weight to exceed Bob's is very small and constant given the problem constraints.
     * **Space Complexity:** O(1), as only a few constant variables are used to store the weights and the year count.
 * **Key Learnings:** Practiced approaching problems using a simple simulation. This was a good reminder of how to use a `while` loop to model a process that continues until a specific condition is met.
+
+### **Day 31: The Magnets Problem! (Codeforces 344A: Magnets)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/344/A](https://codeforces.com/problemset/problem/344/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads a number `n` and then `n` magnet orientations. It iterates through the magnets, counting a new group whenever the current magnet's orientation is different from the previous one. A new group is formed when adjacent magnets repel each other, which occurs when their orientations are different.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the number of magnets, due to a single pass through the list of magnet orientations.
+    * **Space Complexity:** O(N), as the list of magnet orientations is stored in memory.
+* **Key Learnings:** Reinforced the importance of simple sequential comparison within a loop. This problem was a good exercise in translating a physical phenomenon (repelling magnets) into a straightforward logical condition.
+
 ---
 
 ### My Commitment
