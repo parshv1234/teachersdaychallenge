@@ -279,6 +279,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), as the list of magnet orientations is stored in memory.
 * **Key Learnings:** Reinforced the importance of simple sequential comparison within a loop. This problem was a good exercise in translating a physical phenomenon (repelling magnets) into a straightforward logical condition.
 
+### **Day 32: Nearly Lucky Numbers! (Codeforces 110A: Nearly Lucky Number)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/110/A](https://codeforces.com/problemset/problem/110/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads a number as a string and iterates through its digits. It counts how many times the lucky digits '4' and '7' appear. The final result is determined by checking if this count is itself a lucky number (i.e., if the count is 4 or 7).
+* **Complexity:**
+    * **Time Complexity:** O(L), where L is the number of digits in the input number, as a single pass is performed over the string representation of the number.
+    * **Space Complexity:** O(L), to store the number as a string.
+* **Key Learnings:** Practiced basic string iteration and conditional logic. The problem was a good exercise in handling a two-part condition: first counting a specific set of digits, and then checking a condition on that count.
+
 ---
 
 ### My Commitment
