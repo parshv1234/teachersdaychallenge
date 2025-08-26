@@ -288,6 +288,14 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(L), to store the number as a string.
 * **Key Learnings:** Practiced basic string iteration and conditional logic. The problem was a good exercise in handling a two-part condition: first counting a specific set of digits, and then checking a condition on that count.
 
+### **Day 33: Ultra-Fast Mathematician! (Codeforces 61A: Ultra-Fast Mathematician)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/61/A](https://codeforces.com/problemset/problem/61/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads two binary strings of the same length. It then iterates through them simultaneously, comparing the characters at each position. The resulting string is built digit by digit, where a '1' is placed if the corresponding digits in the input strings are different, and a '0' is placed if they are the same.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the strings, as the code performs a single pass over the input.
+    * **Space Complexity:** O(N), as a new string of length N is created to store the output.
+* **Key Learnings:** Practiced simultaneous iteration over two strings. This problem was a great exercise in translating a simple logical operation (XOR) into code and implementing it efficiently.
 ---
 
 ### My Commitment
