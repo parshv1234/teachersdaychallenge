@@ -296,6 +296,17 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Time Complexity:** O(N), where N is the length of the strings, as the code performs a single pass over the input.
     * **Space Complexity:** O(N), as a new string of length N is created to store the output.
 * **Key Learnings:** Practiced simultaneous iteration over two strings. This problem was a great exercise in translating a simple logical operation (XOR) into code and implementing it efficiently.
+
+### **Day 34: The Presents Problem! (Codeforces 136A: Presents)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/136/A](https://codeforces.com/problemset/problem/136/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reverses a given mapping. It reads `n` integers where the `i`-th number indicates who friend `i+1` gave a gift to. A new array is created, and the solution iterates through the original list, using the receiver's number as an index to store the giver's number.
+* **Complexity:**
+    * **Time Complexity:** O(N), as the code iterates through the list of `n` friends once.
+    * **Space Complexity:** O(N), to store the resulting list of gift givers.
+* **Key Learnings:** This problem was a good exercise in working with permutations and reversing mappings. It reinforced the importance of careful array indexing and translating problem logic into a clean implementation.
+
+
 ---
 
 ### My Commitment
