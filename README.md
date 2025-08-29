@@ -306,6 +306,14 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), to store the resulting list of gift givers.
 * **Key Learnings:** This problem was a good exercise in working with permutations and reversing mappings. It reinforced the importance of careful array indexing and translating problem logic into a clean implementation.
 
+### **Day 36: Lucky Division! (Codeforces 122A: Lucky Division)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/122/A](https://codeforces.com/problemset/problem/122/A)
+* **Solution Status:** Solved
+* **Approach:** The solution pre-computes a list of all possible "lucky numbers" (numbers containing only the digits 4 and 7) within the given constraints. It then reads an integer `n` and checks if `n` is perfectly divisible by any number in the lucky numbers list.
+* **Complexity:**
+    * **Time Complexity:** O(1), as the number of lucky numbers to check is constant and small (a fixed list).
+    * **Space Complexity:** O(1), to store the pre-computed list of lucky numbers.
+* **Key Learnings:** Practiced a simple brute-force approach that is effective for problems with small constraints. This was a good reminder that a direct check can be more efficient than a complex algorithm when the search space is limited.
 
 ---
 
