@@ -315,6 +315,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), to store the pre-computed list of lucky numbers.
 * **Key Learnings:** Practiced a simple brute-force approach that is effective for problems with small constraints. This was a good reminder that a direct check can be more efficient than a complex algorithm when the search space is limited.
 
+### **Day 37: HQ9+! (Codeforces 133A: HQ9+)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/133/A](https://codeforces.com/problemset/problem/133/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads a string representing a program. It then checks for the presence of specific characters ('H', 'Q', or '9') which, according to the problem, are the only instructions that produce output. The solution returns "YES" if any of these characters are found, and "NO" otherwise.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the string, as the `in` operator performs a linear search.
+    * **Space Complexity:** O(1), as the program does not use any data structures that scale with the input size.
+* **Key Learnings:** Practiced using a simple and direct approach to check for the presence of multiple characters within a string. This problem was a good exercise in interpreting a problem's specific rules and translating them into a single, elegant conditional check.
+
 ---
 
 ### My Commitment
