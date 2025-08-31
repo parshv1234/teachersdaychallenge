@@ -324,6 +324,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as the program does not use any data structures that scale with the input size.
 * **Key Learnings:** Practiced using a simple and direct approach to check for the presence of multiple characters within a string. This problem was a good exercise in interpreting a problem's specific rules and translating them into a single, elegant conditional check.
 
+### **Day 38: I_love_%username%! (Codeforces 155A: I_love_%username%)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/155/A](https://codeforces.com/problemset/problem/155/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads the number of contests `n` and a list of scores. It initializes `best` and `worst` scores with the first contest's score. It then iterates through the remaining scores, and for each score, it checks if it's strictly greater than the current `best` or strictly less than the current `worst`. If either condition is true, a counter for "amazing performances" is incremented, and the `best` or `worst` score is updated.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the number of contests, as the solution involves a single pass through the list of scores.
+    * **Space Complexity:** O(N), to store the list of scores in memory.
+* **Key Learnings:** Practiced efficiently tracking dynamic minimum and maximum values within a single loop. The problem was a good exercise in applying simple conditional logic and updating state variables to solve a sequential data problem.
+
 ---
 
 ### My Commitment
