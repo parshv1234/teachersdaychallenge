@@ -333,6 +333,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), to store the list of scores in memory.
 * **Key Learnings:** Practiced efficiently tracking dynamic minimum and maximum values within a single loop. The problem was a good exercise in applying simple conditional logic and updating state variables to solve a sequential data problem.
 
+### **Day 39: Arrival of the General! (Codeforces 118A: Arrival of the General)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/118/A](https://codeforces.com/problemset/problem/118/A)
+* **Solution Status:** Solved
+* **Approach:** The solution finds the first occurrence of the maximum height and the last occurrence of the minimum height in the line of soldiers. The total swaps required are calculated as the moves needed to bring the tallest soldier to the front plus the moves to bring the shortest soldier to the back. A special case is handled if the tallest soldier is originally to the right of the shortest, in which case one swap is counted for both.
+* **Complexity:**
+    * **Time Complexity:** O(N), as the solution involves three passes through the array: two to find the indices of the max and min values and one for the initial `max()` and `min()` calls.
+    * **Space Complexity:** O(N), to store the list of soldier heights.
+* **Key Learnings:** Practiced finding specific elements in an array and carefully handling edge cases. This problem was a great exercise in translating a logical, real-world scenario (swapping neighbors in a line) into a minimal-operations algorithm.
+
 ---
 
 ### My Commitment
