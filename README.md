@@ -342,6 +342,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(N), to store the list of soldier heights.
 * **Key Learnings:** Practiced finding specific elements in an array and carefully handling edge cases. This problem was a great exercise in translating a logical, real-world scenario (swapping neighbors in a line) into a minimal-operations algorithm.
 
+### **Day 40: George and Accommodation! (Codeforces 467A: George and Accommodation)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/467/A](https://codeforces.com/problemset/problem/467/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads the total number of rooms `n`. It then iterates `n` times, reading the current number of people `p` and the room's capacity `q` for each room. The code checks if the number of available spots (`q - p`) is 2 or greater. A counter is incremented for each room that meets this condition.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the number of rooms, as the code processes each room exactly once.
+    * **Space Complexity:** O(1), as only a few variables are used to store the state during the loop.
+* **Key Learnings:** Practiced a simple conditional counting loop, which is a fundamental programming pattern. The problem was a good exercise in translating a direct logical condition from the problem statement into a single `if` statement.
+
 ---
 
 ### My Commitment
