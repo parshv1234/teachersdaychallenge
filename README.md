@@ -351,6 +351,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as only a few variables are used to store the state during the loop.
 * **Key Learnings:** Practiced a simple conditional counting loop, which is a fundamental programming pattern. The problem was a good exercise in translating a direct logical condition from the problem statement into a single `if` statement.
 
+### **Day 41: Young Physicist! (Codeforces 69A: Young Physicist)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/69/A](https://codeforces.com/problemset/problem/69/A)
+* **Solution Status:** Solved
+* **Approach:** The solution reads the number of force vectors `n` and then iterates `n` times to read the `x`, `y`, and `z` components of each vector. It maintains a running sum for each of the three coordinates. For a body to be in equilibrium, the sum of all x, y, and z forces must be zero. A final check confirms that all three coordinate sums are zero.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the number of force vectors. The code processes each vector's components once.
+    * **Space Complexity:** O(1), as only a few variables are used to store the running sums and the input.
+* **Key Learnings:** Practiced translating a real-world physics problem (equilibrium of forces) into a simple coding solution. The problem reinforced the importance of summing up components independently and applying a basic conditional check to solve a problem involving vectors.
+
 ---
 
 ### My Commitment
