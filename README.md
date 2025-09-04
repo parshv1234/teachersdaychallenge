@@ -360,6 +360,15 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as only a few variables are used to store the running sums and the input.
 * **Key Learnings:** Practiced translating a real-world physics problem (equilibrium of forces) into a simple coding solution. The problem reinforced the importance of summing up components independently and applying a basic conditional check to solve a problem involving vectors.
 
+### **Day 42: Calculating Function! (Codeforces 486A: Calculating Function)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/486/A](https://codeforces.com/problemset/problem/486/A)
+* **Solution Status:** Solved
+* **Approach:** The solution avoids a time-consuming loop by recognizing a mathematical pattern in the function `f(n)`. If `n` is even, the sum simplifies to `n / 2`. If `n` is odd, the sum simplifies to `-(n + 1) / 2`. The code uses a simple conditional check to apply the correct formula, achieving an O(1) solution.
+* **Complexity:**
+    * **Time Complexity:** O(1), as the solution is based on a direct formula and does not involve iteration, regardless of how large `n` is.
+    * **Space Complexity:** O(1), as only a few constant variables are used.
+* **Key Learnings:** This problem was a powerful reminder that for large-scale problems, finding a mathematical pattern or an optimized formula is crucial. A brute-force iterative approach would have timed out, highlighting the importance of logical simplification over direct simulation.
+
 ---
 
 ### My Commitment
