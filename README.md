@@ -13,6 +13,7 @@ The Teachers' Day Challenge offers two tracks:
 * **Advanced Track:** 86 problems (2 problems per day)
 
 I'm committed to tackling problems from Beginner track to sharpen my DSA skills and maintain daily coding consistency. 
+**I am proud to announce that I have successfully completed `Teacher's Day Challenge` and all problems in the Beginner track!**
 
 "Success is the sum of small efforts, repeated day in and day out." This challenge perfectly embodies that philosophy, and I'm excited to see the progress each day brings.
 
@@ -369,6 +370,14 @@ Here, you'll find my solutions to the daily problems. I'll be updating this repo
     * **Space Complexity:** O(1), as only a few constant variables are used.
 * **Key Learnings:** This problem was a powerful reminder that for large-scale problems, finding a mathematical pattern or an optimized formula is crucial. A brute-force iterative approach would have timed out, highlighting the importance of logical simplification over direct simulation.
 
+### **Day 43: cAPS lOCK and the Finish Line! (Codeforces 131A: cAPS lOCK)**
+* **Problem Link:** [https://codeforces.com/problemset/problem/131/A](https://codeforces.com/problemset/problem/131/A)
+* **Solution Status:** Solved
+* **Approach:** The solution defines three specific rules to determine if a word was typed with Caps Lock on by accident. If any of these rules match (the word is all uppercase, the first letter is lowercase and the rest are uppercase, or the word is a single lowercase letter), the case of all letters is swapped. Otherwise, the word is printed unchanged.
+* **Complexity:**
+    * **Time Complexity:** O(N), where N is the length of the string, as the solution performs a single pass over the string to check the conditions.
+    * **Space Complexity:** O(N), as a new string is created when the case is swapped.
+* **Key Learnings:** This problem was a great final exercise in implementing complex conditional logic using a combination of string methods. It was a good reminder that a problem's rules can be directly translated into a clean, multi-part conditional statement. Completing this problem marks the end of the Teachers' Day Challenge, having reinforced key concepts in strings, loops, and logic.
 ---
 
 ### My Commitment
